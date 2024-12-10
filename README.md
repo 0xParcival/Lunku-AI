@@ -44,8 +44,11 @@ Lunku AI Bot is used in Discord for Image Generation using Pordia AI
    ```bash  
    Add in .Env File
    ```
-   
-5. **Start the Application**:  
+5. **Install Requirement**
+    ```bash  
+   pip install -r requriment
+   ```  
+6. **Start the Application**:  
    ```bash  
    python main.py
    ```  
