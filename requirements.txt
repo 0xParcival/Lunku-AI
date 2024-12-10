@@ -1,6 +1,7 @@
+discord.py==2.4.0
 python-dotenv==1.0.0
 prodiapy==4.5
-discord.py==2.4.0
+py-cord==2.6.1
 aiohttp==3.11.9
 zenlogger==0.0.2
 requests==2.32.3
