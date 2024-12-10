@@ -4,20 +4,23 @@ It can be used as a template to create sample repositories that can be added int
 
 Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
 
-# Sample <LANGUAGE/FRAMEWORK>
+# Lunku AI Bot<Python>
 
-Sample description
+Description
 
+Lunku AI Bot is used in Discord for Image Generation using Pordia AI
 ---
 
 ## 🚀 Getting Started  
+
+
 
 ### Open Using Daytona  
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create  
    ```  
 
 ... MORE STEPS IF NEEDED ...
