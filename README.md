@@ -29,7 +29,7 @@ Lunku AI Bot is used in Discord for Image Generation using Pordia AI
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
 2. **Run Daytona**:
    ```bash
-    bash daytona serve
+    daytona serve
    ```
 4. **Create the Workspace**: 
    ```bash  
@@ -52,4 +52,7 @@ Lunku AI Bot is used in Discord for Image Generation using Pordia AI
 ---
 
 ## ✨ Features  
-List of sample features (e.g. realtime bot app, standardized development environment with devcontainers)
+List of Features 
+ - Realtime bot app 
+ - standardized development environment with devcontainers
+ - Image Gentration AI
