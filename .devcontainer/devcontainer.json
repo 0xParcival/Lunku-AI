@@ -1,7 +1,7 @@
 {
   "name": "Lunku AI Bot Dev Container",
   "build": {
-    "dockerfile": "0xParcival/Lunku-AI/Dockerfile"
+    "dockerfile": "./Lunku-AI/Dockerfile"
   },
   "forwardPorts": [80]
 }
