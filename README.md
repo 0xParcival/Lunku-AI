@@ -1,4 +1,4 @@
-# Lunku AI Bot <PYTHON>
+# Lunku AI Bot<PYTHON/NIl>
 #### Description
    Lunku AI Bot is used in Discord for Image Generation using Pordia AI
 
@@ -37,10 +37,12 @@
 3. **Create the Workspace**:
    1. Open another Terminal 
          ```bash  
-           daytona create https://github.com/0xParcival/Lunku-AI.git
+           daytona create https://github.com/0xParcival/Lunku-AI.git4
          ```
-5. **Add Prodia AI (API KEY) To .Env File**:Follow the [Prodia](https://prodia.com/)
-6. **Start the Application**:  
+    2.It will Open in VScode   
+
+4. **Add Prodia AI (API KEY) To .Env File**:Follow the [Prodia](https://prodia.com/)
+5. **Start the Application in vscode Teminal**:  
    ```bash  
    python main.py
    ```  
