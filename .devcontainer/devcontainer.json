@@ -1,7 +1,7 @@
 {
   "name": "Lunku AI Bot Dev Container",
   "build": {
-    "dockerfile": "./Lunku-AI/Dockerfile"
+    "dockerfile": "Dockerfile"
   },
   "forwardPorts": [80],
   "postCreateCommand": "pip install -r requirements.txt"
