@@ -1,4 +1,4 @@
-# Lunku AI Bot<PYTHON/NIl>
+# Lunku AI Bot </PYTHON/>
 #### Description
    Lunku AI Bot is used in Discord for Image Generation using Pordia AI
 
