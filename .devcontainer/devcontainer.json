@@ -1,6 +1,8 @@
 {
   "name": "Lunku AI Bot Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/python:3.10.6-bustern:3.10",
-  "forwardPorts": [80],
+  "image": "mcr.microsoft.com/devcontainers/python:3.10-buster",
+  "forwardPorts": [
+    80
+  ],
   "postCreateCommand": "pip install -r requirements.txt"
 }
