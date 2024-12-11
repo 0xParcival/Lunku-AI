@@ -1,5 +1,6 @@
 {
   "name": "Lunku AI Bot Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10.6-bustern:3.10",
   "build": {
     "dockerfile": "Lunku-AI/Dockerfile"
   },
