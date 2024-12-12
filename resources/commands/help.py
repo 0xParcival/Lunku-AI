@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-
 from resources.utils import logger
 
 
@@ -8,6 +7,7 @@ class LinkButtonView(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None)
         support_btn = discord.ui.Button(style=discord.ButtonStyle.blurple,
+                                        label="0xpracival",
                                         url='https://github.com/0xParcival')
         self.add_item(support_btn)
 
