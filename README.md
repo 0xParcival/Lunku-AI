@@ -70,7 +70,8 @@
    AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
    ```
    1.Solution 
-    Change The *py-cord* package verson downgrade/upgrade 2.6.0/2.6.1
+   
+   Change The *py-cord* package verson downgrade/upgrade 2.6.0/2.6.1
     
    ```bash
        pip install -r requriment.txt
