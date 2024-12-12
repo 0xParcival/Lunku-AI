@@ -1,7 +1,6 @@
 {
   "name": "Lunku AI Bot Dev Container",
-  "forwardPorts": [
-    80
-  ],
+  "image": "python:3.13.1-bookworm",
+  "forwardPorts": [80],
   "postCreateCommand": "pip install -r requirements.txt"
 }
