@@ -95,16 +95,16 @@ List of Features
        pip install -r requriment.txt
        python main.py
    ```
-# usage
+# Usage
 
-1. /help - Usage of Commands
+ 1.  ```/help``` - Usage of Commands
 
-2. /generate *text* - Generate To Text2Img
+ 2.  ```/generate *text* ```- Generate To Text2Img
 
-3. /upscale *img* - upscale image using Real-ESRGAN
+ 3.  ```/upscale *img* ```- upscale image using Real-ESRGAN
 
-4. /swapface *source* *target* -Swaping Face Source With Another Target
+ 4.  ```/swapface *source* *target* ```-Swaping Face Source With Another Target
 
-5. /transform *img* *text* -  Generate To IMG2IMG
+ 5.  ```/transform *img* *text* ```-  Generate To IMG2IMG
       
 
