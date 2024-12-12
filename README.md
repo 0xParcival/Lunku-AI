@@ -1,7 +1,13 @@
 # Lunku AI Bot </PYTHON/>
-#### Description
-   Lunku AI Bot is used in Discord for Image Generation using Pordia AI
-
+## Description
+   Lunku AI Bot is used in Discord for Image Generation using Pordia AI'
+## Techstack
+   Python
+## ✨ Features  
+List of Features 
+ - Realtime bot app 
+ - standardized development environment with devcontainers
+ - Image Gentration AI
 ## 🚀 Getting Started  
 
 ### Create Discord Bot :
@@ -50,8 +56,20 @@
       ```
     2.It will Open automatically in VScode   
 
-5. **Add Prodia AI (API KEY) To .Env File**:Follow the [Prodia](https://prodia.com/)
-6. **Start the Application in vscode Teminal**:  
+5. **Add Prodia AI (API KEY) To .Env File**:
+   
+   1. Follow the Prodia AI Sign up [Prodia](https://app.prodia.com/login)
+   
+   2. Get API
+   
+      <img width="500" alt="Screenshot 2024-12-12 232719" src="https://github.com/user-attachments/assets/370e669e-f26a-4ff2-b478-258913a56709" />
+   3. Add To The .env file
+      
+      <img width="500" alt="image" src="https://github.com/user-attachments/assets/cf0f8773-cbaf-4302-9de9-41ae7c92f93a" />
+
+
+   
+7. **Start the Application in vscode Teminal**:  
    ```bash  
    python main.py
    ```
@@ -77,10 +95,12 @@
        pip install -r requriment.txt
        python main.py
    ```
-     
+# usage
+
+1./help - Usage of Commands
+2./generate *text* - Generate To Text2Img
+3./upscale 
+4./swapface *source* *target* -Swaping Face Source With Another Target
+5./transform - G
       
-## ✨ Features  
-List of Features 
- - Realtime bot app 
- - standardized development environment with devcontainers
- - Image Gentration AI
+
