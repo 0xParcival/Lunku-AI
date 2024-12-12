@@ -71,7 +71,7 @@
    ```
    1.Solution 
    
-   Change The *py-cord* package verson downgrade/upgrade 2.6.0/2.6.1
+   Change The *py-cord* package verson (downgrade/upgrade) (2.6.0/2.6.1)
     
    ```bash
        pip install -r requriment.txt
