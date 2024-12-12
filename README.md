@@ -37,27 +37,28 @@
 ### Open Using Daytona  
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/)
-               *Note: Docker should Installed in your system*
-2. **Open Terminal Run Daytona**: *Note This Terminal Session not close until full devoplement completed*
+               *Note: Docker should Installed in your system and widows system for linux (wsl)*
+   
+3. **Open Terminal Run Daytona**: *Note This Terminal Session not close until full devoplement completed*
    ```bash
     daytona serve
    ```
-3. **Create the Workspace**: *Note any IDE must installed in system my fav is Vscode*
+4. **Create the Workspace**: *Note any IDE must installed in system my fav is Vscode*
    1. Open another Terminal 
       ```bash  
            daytona create https://github.com/0xParcival/Lunku-AI.git
       ```
     2.It will Open automatically in VScode   
 
-4. **Add Prodia AI (API KEY) To .Env File**:Follow the [Prodia](https://prodia.com/)
-5. **Start the Application in vscode Teminal**:  
+5. **Add Prodia AI (API KEY) To .Env File**:Follow the [Prodia](https://prodia.com/)
+6. **Start the Application in vscode Teminal**:  
    ```bash  
    python main.py
    ```
 # ERROR
-1. AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
-   
-  ```python
+**Error 1**
+   1.AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
+   ```python
   Traceback (most recent call last):
      File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 449, in _run_event
         await coro(*args, **kwargs)
@@ -66,7 +67,15 @@
            ^^^^^^^^^^^^^^^^^
    AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
    ```
-
+   1.Solution 
+    Change The *py-cord* package verson downgrade/upgrade 2.6.0/2.6.1
+    
+   ```bash
+       pip install -r requriment.txt
+       python main.py
+   ```
+     
+      
 ## ✨ Features  
 List of Features 
  - Realtime bot app 
