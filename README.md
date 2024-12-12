@@ -56,7 +56,9 @@
    python main.py
    ```
 # ERROR
+
 **Error 1**
+
    1.AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
    ```python
   Traceback (most recent call last):
