@@ -1,7 +1,8 @@
 {
   "name": "Lunku AI Bot Dev Container",
-  "image": "python:3.13.1-bookworm",
-  "remoteUser": "root",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand":"pip install -r requirements.txt",
   "forwardPorts": [80]
 }
