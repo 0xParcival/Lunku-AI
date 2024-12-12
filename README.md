@@ -53,7 +53,19 @@
 5. **Start the Application in vscode Teminal**:  
    ```bash  
    python main.py
-   ```  
+   ```
+# ERROR
+1. AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
+   
+  ```python
+  Traceback (most recent call last):
+     File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 449, in _run_event
+        await coro(*args, **kwargs)
+      File "/workspaces/Lunku-AI/main.py", line 27, in on_ready
+         await bot.sync_commands()
+           ^^^^^^^^^^^^^^^^^
+   AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
+   ```
 
 ## ✨ Features  
 List of Features 
