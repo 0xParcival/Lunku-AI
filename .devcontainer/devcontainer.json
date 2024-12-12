@@ -2,8 +2,5 @@
   "name": "Lunku AI Bot Dev Container",
   "image": "python:3.13.1-bookworm",
   "forwardPorts": [80],
-  "postCreateCommand": [
-    "apt-get update && apt-get install -y sudo",
-    "pip install -r requirements.txt"
-  ]
+  "postCreateCommand":"pip install -r requirements.txt"
 }
