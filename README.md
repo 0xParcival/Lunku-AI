@@ -65,9 +65,10 @@ List of Features
       <img width="500" alt="Screenshot 2024-12-12 232719" src="https://github.com/user-attachments/assets/370e669e-f26a-4ff2-b478-258913a56709" />
    3. Add To The .env file
       
-      <img width="500" alt="image" src="https://github.com/user-attachments/assets/cf0f8773-cbaf-4302-9de9-41ae7c92f93a" />
-
-
+    ```env
+       DISCORD="YOUR_DISCORD_BOT_TOKEN"
+       PRODIA="YOUR_PRODIA_API"
+   ```
    
 7. **Start the Application in vscode Teminal**:  
    ```bash  
