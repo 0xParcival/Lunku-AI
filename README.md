@@ -47,12 +47,12 @@ List of Features
    
 3. **Open Terminal Run Daytona**: *Note This Terminal Session not close until full devoplement completed*
    ```bash
-    daytona serve
+   daytona serve
    ```
 4. **Create the Workspace**: *Note any IDE must installed in system my fav is Vscode*
    1. Open another Terminal 
       ```bash  
-           daytona create https://github.com/0xParcival/Lunku-AI.git
+      daytona create https://github.com/0xParcival/Lunku-AI.git
       ```
     2.It will Open automatically in VScode   
 
@@ -66,9 +66,9 @@ List of Features
    3. Add To The .env file
       
     ```env
-       DISCORD="YOUR_DISCORD_BOT_TOKEN"
-       PRODIA="YOUR_PRODIA_API"
-   ```
+    DISCORD="YOUR_DISCORD_BOT_TOKEN"
+    PRODIA="YOUR_PRODIA_API"
+    ```
    
 7. **Start the Application in vscode Teminal**:  
    ```bash  
@@ -80,7 +80,7 @@ List of Features
 
    1.AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
    ```python
-  Traceback (most recent call last):
+   Traceback (most recent call last):
      File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 449, in _run_event
         await coro(*args, **kwargs)
       File "/workspaces/Lunku-AI/main.py", line 27, in on_ready
