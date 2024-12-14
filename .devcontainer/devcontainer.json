@@ -23,8 +23,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
-  "features": {
-    "github-cli": "latest" 
-  }
+  "postCreateCommand": "pip install -r requirements.txt"
 }
