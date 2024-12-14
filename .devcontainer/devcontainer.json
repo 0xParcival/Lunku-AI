@@ -1,6 +1,6 @@
 {
   "name": "Lunku-AI Dev Environment",
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",  
+  "image": "python:3.13",  
   "forwardPorts": [80], 
   "customizations": {
     "vscode": {
