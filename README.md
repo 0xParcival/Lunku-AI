@@ -90,11 +90,18 @@ List of Features
    ```
    1.Solution 
    
-   Change The *py-cord* package verson (downgrade/upgrade) (2.6.0/2.6.1)
-    
+   Change The *py-cord* package verson (downgrade/upgrade) (2.6.0/2.6.1) in requirment.txt
+   
+   Default the Py-cord Package version is 2.6.1 (Downgrade the version)
+   
+   ```txt
+   py-cord=2.6.0
+   ```
+   Then run This Command:
+   
    ```bash
-       pip install -r requriment.txt
-       python main.py
+   pip install requirment.txt
+   python main.py
    ```
 # Usage
 
