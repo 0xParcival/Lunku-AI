@@ -1,6 +1,5 @@
 {
   "name": "Lunku-AI Dev Environment",
-  "image": "python:3.13",  
   "build": {
     "dockerfile": "Dockerfile"
   },
