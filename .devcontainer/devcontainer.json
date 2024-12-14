@@ -1,6 +1,9 @@
 {
   "name": "Lunku-AI Dev Environment",
   "image": "python:3.13",  
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "forwardPorts": [80], 
   "customizations": {
     "vscode": {
