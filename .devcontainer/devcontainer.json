@@ -1,8 +1,30 @@
 {
-  "name": "Lunku AI Bot Dev Container",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "name": "Lunku-AI Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",  
+  "forwardPorts": [80], 
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.provider": "black",
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "ms-python.pylint"
+      ]
+    }
   },
-  "postCreateCommand":"pip install -r requirements.txt",
-  "forwardPorts": [80]
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
+  "features": {
+    "github-cli": "latest" 
+  }
 }
