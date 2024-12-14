@@ -92,7 +92,7 @@ List of Features
    
    Change The *py-cord* package verson (downgrade/upgrade) (2.6.0/2.6.1) in requirment.txt
    
-   Default the Py-cord Package version is 2.6.1 (Downgrade the version)
+   *Default The Py-cord Package version is 2.6.1 (Downgrade the version)*
    
    ```txt
    py-cord=2.6.0
