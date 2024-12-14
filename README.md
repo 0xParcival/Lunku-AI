@@ -100,7 +100,7 @@ List of Features
    Then run This Command:
    
    ```bash
-   pip install requirment.txt
+   pip install requirement.txt 
    python main.py
    ```
 # Usage
