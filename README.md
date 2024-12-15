@@ -15,6 +15,10 @@ List of Features
    
    1. User Settings -> Advanced -> Enable Developer Mode
    
+
+
+
+
       <img width="500" alt="image" src="https://github.com/user-attachments/assets/04b8f2c2-02ac-43d6-b159-03ae7dfd94c5" />
 
    
@@ -38,7 +42,14 @@ List of Features
  6. **Invite the Bot**
    
     1. Under the "OAuth2" tab, use the Bot scope and select Adminstator.
-      Copy the generated URL, paste it into your browser, and invite the bot to your server.
+      Copy the generated URL, paste it into your browser, create a new server and invite the bot to your server.
+
+
+    
+       <video width="500" src="https://github.com/user-attachments/assets/8c10153c-9c53-4350-ae75-eb14f637af63">
+       
+
+
 
 ### Open Using Daytona  
 
@@ -74,6 +85,19 @@ List of Features
    ```bash  
    python main.py
    ```
+
+# Usage
+
+ 1.  ```/help``` - Usage of Commands
+
+ 2.  ```/generate *text* ```- Generate To Text2Img
+
+ 3.  ```/upscale *img* ```- upscale image using Real-ESRGAN
+
+ 4.  ```/swapface *source* *target* ```-Swaping Face Source With Another Target
+
+ 5.  ```/transform *img* *text* ```-  Generate To IMG2IMG
+      
 # ERROR
 
 **Error 1**
@@ -103,16 +127,5 @@ List of Features
    pip install requirement.txt 
    python main.py
    ```
-# Usage
 
- 1.  ```/help``` - Usage of Commands
-
- 2.  ```/generate *text* ```- Generate To Text2Img
-
- 3.  ```/upscale *img* ```- upscale image using Real-ESRGAN
-
- 4.  ```/swapface *source* *target* ```-Swaping Face Source With Another Target
-
- 5.  ```/transform *img* *text* ```-  Generate To IMG2IMG
-      
 
