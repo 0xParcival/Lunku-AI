@@ -89,6 +89,7 @@ List of Features
    ```
 
 # Usage
+ In The Discord Sever That You Invite the Bot And Start The Chat using this command
 
  1.  ```/help``` - Usage of Commands
 
