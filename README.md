@@ -32,12 +32,12 @@ List of Features
 
       <img width="500" alt="image" src="https://github.com/user-attachments/assets/04b8f2c2-02ac-43d6-b159-03ae7dfd94c5" />
 
-2. **Get Discord API** [Dicord](https://discord.com/developers/applications)
+2. **Go To [Discord Developer Portal](https://discord.com/developers/applications)**
 
    <img width="500" alt="Screenshot 2024-12-10 160136" src="https://github.com/user-attachments/assets/54065f77-d453-4b59-a930-3a3a5dc02d24">
 
-3. **Give Name To APP**
-
+3. **Give Name To Application** 
+        <img width="1263" alt="image" src="https://github.com/user-attachments/assets/b4051e56-f1f6-4e18-bec3-43e565ea0d8e" />
 4. **Go To Bot Tab**
 
    1. Give All Access To Bot
@@ -56,17 +56,31 @@ List of Features
        4. Give your server a name (e.g., "Test Server") and click **Create**.
 
     2. Invite the Bot to Your Server
+  
+       1. Go To [Discord Developer Portal](https://discord.com/developers/applications) Select application That Created For Bot
+       2. Go To Oauth2 Tab under OAuth2 URL Generator Select Bot
 
-       1. Obtain the bot's invite link (usually provided by the bot’s developer or through a specific URL).
-       2. Open the invite link in your browser.
-       3. Select the test server you just created from the dropdown list of servers you can add the bot to.
-       4. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
-       5. Complete any CAPTCHA verification if required.
+             <img width="1240" alt="image" src="https://github.com/user-attachments/assets/5fd0de6c-c069-4281-bdf6-ce973528164f" />
+             
+       3. Give Bot Permission as Adminstator
+       
+             <img width="1219" alt="image" src="https://github.com/user-attachments/assets/ae7c8aa9-fcaa-4ce7-8778-0f5f58d04569" />
 
-    3. Using the Bot Commands in Your Test Server
-         Once the bot is added to your server, you can use the following commands in any text channel:
-         <video width="500" src="https://github.com/user-attachments/assets/8c10153c-9c53-4350-ae75-eb14f637af63">
+       4. Obtain the bot's invite link (usually provided by the bot’s developer or through a specific URL).
+  
+            <img width="1238" alt="Screenshot 2024-12-16 235223" src="https://github.com/user-attachments/assets/2ee7c589-429f-43a2-818e-098b418db9b7" />
 
+             
+       6. Open the invite link in your browser.
+       7. Select the test server you just created from the dropdown list of servers you can add the bot to.
+       8. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
+       9. Complete any CAPTCHA verification if required.
+ 
+
+       
+       **Click [here](https://www.youtube.com/watch?v=KB3FvoXjw6M) To see video to create discord server and invite bot to that server**
+
+   
 ### Open Using Daytona  
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/)
