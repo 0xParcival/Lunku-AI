@@ -39,9 +39,11 @@ List of Features
 
       <img width="564" alt="image" src="https://github.com/user-attachments/assets/09ac192e-9a68-43f4-86f6-d094c93d3eb5">
       
- 6. **Invite the Bot**
-   
-    1. Under the "OAuth2" tab, use the Bot scope and select Adminstator.
+ 6. **Invite the Bot To Server**
+    
+    1. Create discord Server(dummy server)
+       
+    2. Under the "OAuth2" tab, use the Bot scope and select Adminstator.
       Copy the generated URL, paste it into your browser, create a new server and invite the bot to your server.
 
 
