@@ -1,8 +1,12 @@
 # Lunku AI Bot </PYTHON/>
 ## Description
    Lunku AI Bot is used in Discord for Image Generation using Pordia AI'
+## Requirmemts
+  - Docker 
+  - VS code *any IDE can use but should be install in your system*
+  - WSL(Windows Subsystem For Linux) [Intall WSL](learn.microsoft.com/en-us/windows/wsl/install) *only for Windows users*
 ## Techstack
-   Python
+   Python 
 ## ✨ Features  
 List of Features 
  - Realtime bot app 
