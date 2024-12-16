@@ -125,7 +125,7 @@ List of Features
    ```
 
 # Usage
-   In The Discord Server That You Invite the Bot And Start The Chat using this command
+   In The Discord Server That You Invite the Bot And Start using this command in Chat box 
 
 ### Available Commands
 
