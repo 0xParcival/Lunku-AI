@@ -85,7 +85,7 @@ List of Features
       daytona create https://github.com/0xParcival/Lunku-AI.git
       ```
 
-    2.It will Open automatically in VScode
+   2. It will Open automatically in VScode
 
 4. **Add Prodia AI (API KEY) To .Env File**:
 
