@@ -34,10 +34,12 @@ List of Features
 
 2. **Go To [Discord Developer Portal](https://discord.com/developers/applications)**
 
-   <img width="500" alt="Screenshot 2024-12-10 160136" src="https://github.com/user-attachments/assets/54065f77-d453-4b59-a930-3a3a5dc02d24">
+      <img width="500" alt="Screenshot 2024-12-10 160136" src="https://github.com/user-attachments/assets/54065f77-d453-4b59-a930-3a3a5dc02d24">
 
-3. **Give Name To Application** 
-        <img width="1263" alt="image" src="https://github.com/user-attachments/assets/b4051e56-f1f6-4e18-bec3-43e565ea0d8e" />
+3. **Give Name To Application**  '
+   
+      <img width="1263" alt="image" src="https://github.com/user-attachments/assets/b4051e56-f1f6-4e18-bec3-43e565ea0d8e" />
+   
 4. **Go To Bot Tab**
 
    1. Give All Access To Bot
@@ -71,10 +73,10 @@ List of Features
             <img width="1238" alt="Screenshot 2024-12-16 235223" src="https://github.com/user-attachments/assets/2ee7c589-429f-43a2-818e-098b418db9b7" />
 
              
-       6. Open the invite link in your browser.
-       7. Select the test server you just created from the dropdown list of servers you can add the bot to.
-       8. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
-       9. Complete any CAPTCHA verification if required.
+       5. Open the invite link in your browser.
+       6. Select the test server you just created from the dropdown list of servers you can add the bot to.
+       7. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
+       8. Complete any CAPTCHA verification if required.
  
 
        
