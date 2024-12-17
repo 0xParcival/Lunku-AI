@@ -28,5 +28,5 @@
 
   "forwardPorts": [80],
   "remoteUser": "root" ,
-  "postCreateCommand": "pip install -r requirements.txt"
+  "onCreateCommand": "pip install -r requirements.txt"
 }
