@@ -36,7 +36,7 @@ List of Features
 
       <img width="500" alt="Screenshot 2024-12-10 160136" src="https://github.com/user-attachments/assets/54065f77-d453-4b59-a930-3a3a5dc02d24">
 
-3. **Give Name To Application**  '
+3. **Give Name To Application**  
    
       <img width="1263" alt="image" src="https://github.com/user-attachments/assets/b4051e56-f1f6-4e18-bec3-43e565ea0d8e" />
    
@@ -49,40 +49,7 @@ List of Features
    2. Click To Reset Token and Paste in .Env File
 
       <img width="564" alt="image" src="https://github.com/user-attachments/assets/09ac192e-9a68-43f4-86f6-d094c93d3eb5">
-
-5. **Invite the Bot To Server**
-    1. Create a Test Server
-       1. Open Discord.
-       2. On the left sidebar, click the **"+"** button to create a new server.
-       3. Choose **Create My Own** (for personal use).
-       4. Give your server a name (e.g., "Test Server") and click **Create**.
-
-    2. Invite the Bot to Your Server
-  
-       1. Go To [Discord Developer Portal](https://discord.com/developers/applications) Select application That Created For Bot
-       2. Go To Oauth2 Tab under OAuth2 URL Generator Select Bot
-
-             <img width="1240" alt="image" src="https://github.com/user-attachments/assets/5fd0de6c-c069-4281-bdf6-ce973528164f" />
-             
-       3. Give Bot Permission as Adminstator
-       
-             <img width="1219" alt="image" src="https://github.com/user-attachments/assets/ae7c8aa9-fcaa-4ce7-8778-0f5f58d04569" />
-
-       4. Obtain the bot's invite link (usually provided by the bot’s developer or through a specific URL).
-  
-            <img width="1238" alt="Screenshot 2024-12-16 235223" src="https://github.com/user-attachments/assets/2ee7c589-429f-43a2-818e-098b418db9b7" />
-
-             
-       5. Open the invite link in your browser.
-       6. Select the test server you just created from the dropdown list of servers you can add the bot to.
-       7. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
-       8. Complete any CAPTCHA verification if required.
- 
-
-       
-       **Click [here](https://www.youtube.com/watch?v=KB3FvoXjw6M) To see video to create discord server and invite bot to that server**
-
-   
+      
 ### Open Using Daytona  
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/)
@@ -117,15 +84,49 @@ List of Features
     DISCORD="YOUR_DISCORD_BOT_TOKEN"
     PRODIA="YOUR_PRODIA_API"
     ```
-
-5. **Start the Application in vscode Teminal**:  
+5. **Install Python Package**:
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. **Start the Application in vscode Teminal**:  
 
    ```bash  
    python main.py
    ```
+7. **Invite the Bot To Server**
+    1. Create a Test Server
+       1. Open Discord.
+       2. On the left sidebar, click the **"+"** button to create a new server.
+       3. Choose **Create My Own** (for personal use).
+       4. Give your server a name (e.g., "Test Server") and click **Create**.
+
+    2. Invite the Bot to Your Server
+  
+       1. Go To [Discord Developer Portal](https://discord.com/developers/applications) Select application That Created For Bot
+       2. Go To Oauth2 Tab under OAuth2 URL Generator Select Bot
+
+             <img width="1240" alt="image" src="https://github.com/user-attachments/assets/5fd0de6c-c069-4281-bdf6-ce973528164f" />
+             
+       3. Give Bot Permission as Adminstator
+       
+             <img width="1219" alt="image" src="https://github.com/user-attachments/assets/ae7c8aa9-fcaa-4ce7-8778-0f5f58d04569" />
+
+       4. Obtain the bot's invite link (usually provided by the bot’s developer or through a specific URL).
+  
+            <img width="1238" alt="Screenshot 2024-12-16 235223" src="https://github.com/user-attachments/assets/2ee7c589-429f-43a2-818e-098b418db9b7" />
+
+             
+       5. Open the invite link in your browser.
+       6. Select the test server you just created from the dropdown list of servers you can add the bot to.
+       7. Click **Authorize** and ensure you check the necessary permissions for the bot to function properly (such as sending messages, reading channels, etc.).
+       8. Complete any CAPTCHA verification if required.
+ 
+       
+       **Click [here](https://www.youtube.com/watch?v=KB3FvoXjw6M) To see video to create discord server and invite bot to that server**
 
 # Usage
-   In The Discord Server That You Invite the Bot And Start using this command in Chat box 
+   In The Discord Server That You Invited the Bot And Start using this command in Chat box 
 
 ### Available Commands
 
@@ -148,35 +149,6 @@ List of Features
       Transforms an image based on a text description.  
       Example: `/transform [upload image file] "Turn the image into a cartoon version"`
 
-## ERROR
 
-### Error 1
 
-   1.AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
 
-   ```python
-   Traceback (most recent call last):
-     File "/usr/local/lib/python3.13/site-packages/discord/client.py", line 449, in _run_event
-        await coro(*args, **kwargs)
-      File "/workspaces/Lunku-AI/main.py", line 27, in on_ready
-         await bot.sync_commands()
-           ^^^^^^^^^^^^^^^^^
-   AttributeError: 'Bot' object has no attribute 'sync_commands'. Did you mean: 'all_commands'?
-   ```
-
-   1.Solution
-
-   Change The *py-cord* package verson (downgrade/upgrade) (2.6.0/2.6.1) in requirment.txt
-
-   *Default The Py-cord Package version is 2.6.0*
-
-   ```txt
-   py-cord=2.6.1
-   ```
-
-   Then run This Command:
-
-   ```bash
-   pip install -r requirements.txt
-   python main.py
-   ```
