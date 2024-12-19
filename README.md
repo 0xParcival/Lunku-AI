@@ -1,6 +1,5 @@
 # Lunku AI Bot </PYTHON/>
 
-   This sample project under daytonaio: [Sample-Python-Discord-Image-Generator](https://github.com/daytonaio/sample-python-discord-image-generator)  
 
 ## Description
 
