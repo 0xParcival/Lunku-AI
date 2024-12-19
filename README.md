@@ -1,9 +1,8 @@
-# Lunku AI Bot </PYTHON/>
-
+# Sample Python Discord Image Generator Bot </PYTHON/>
 
 ## Description
 
-   Lunku AI Bot is used in Discord for Image Generation using Pordia AI'
+   Sample Python Discord Image Generator Bot is used in Discord for Image Generation using Pordia AI'
 
 ## Requirmemts
 
