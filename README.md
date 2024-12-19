@@ -65,7 +65,7 @@ List of Features
    1. Open another Terminal
 
       ```bash  
-      daytona create https://github.com/0xParcival/Lunku-AI.git
+      daytona create https://github.com/daytonaio/sample-python-discord-image-generator.git
       ```
 
    2. It will Open automatically in VScode
