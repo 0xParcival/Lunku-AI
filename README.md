@@ -1,4 +1,4 @@
-# Sample Python Discord Image Generator Bot </PYTHON/>
+# Lunku AI </PYTHON/>
 
 ## Description
 
